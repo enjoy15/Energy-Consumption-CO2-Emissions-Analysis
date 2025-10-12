@@ -567,6 +567,117 @@ This section explains how each business requirement (BR1-BR6) is addressed throu
 | BR5: Comparative Benchmarking | Bar charts, rankings | Identify top CO2 emitter countries | United States is the top CO2 emitter |
 | BR6: Diverse Audiences | KPIs, narratives, notebooks | Communicate to all stakeholders | Executive summaries + technical details |
 
+---
+
+## Analysis Techniques Used
+
+This section details the data analysis methods employed, their limitations, alternative approaches, and how generative AI tools assisted in the project.
+
+
+### 1. Descriptive Statistics
+
+**Techniques Used:**
+- Measures of central tendency (mean, median, mode)
+- Measures of dispersion (standard deviation, variance, IQR)
+- Percentiles and quartiles
+- Frequency distributions
+
+**Limitations:**
+- **Outliers:** Mean is sensitive to extreme values (e.g., China's massive consumption)
+- **Distribution Assumptions:** Standard deviation assumes normal distribution (not always true)
+- **Temporal Aggregation:** Summary statistics across all years may hide trends
+
+**Alternative Approaches:**
+- **Robust Statistics:** Use median and IQR instead of mean and std for skewed data
+- **Temporal Stratification:** Calculate statistics separately for each decade
+- **Weighted Statistics:** Weight by population or GDP for more representative averages
+
+**Justification for Chosen Approach:**
+Descriptive statistics provide a quick overview of data characteristics, essential for initial exploration. Both mean (for normal distributions) and median (for skewed distributions) are used to handle different data types appropriately.
+
+---
+
+### 2. Correlation Analysis
+
+**Techniques Used:**
+- Pearson correlation coefficient (linear relationships)
+- Correlation heatmaps for multivariate analysis
+
+**Limitations:**
+- **Causation:** Correlation does not imply causation (GDP and energy may both be driven by third factor)
+- **Linearity Assumption:** Pearson correlation only captures linear relationships
+- **Outliers:** Extreme values can inflate or deflate correlation coefficients
+- **Temporal Autocorrelation:** Time series data may show spurious correlations
+
+**Alternative Approaches:**
+- **Partial Correlation:** Control for confounding variables (e.g., correlation between GDP and energy, controlling for population)
+- **Granger Causality:** Test if one time series predicts another (directional relationship)
+
+**Justification for Chosen Approach:**
+Pearson correlation is widely understood and appropriate for the predominantly linear relationships in our data. We validated linearity assumptions with scatter plots before calculating correlations.
+
+---
+
+### 3. Linear Regression
+
+**Techniques Used:**
+- Simple linear regression (one predictor)
+
+**Limitations:**
+- **Linearity Assumption:** Assumes linear relationship between predictors and target (may not hold)
+- **Outliers:** Extreme values can disproportionately influence regression line
+- **Extrapolation:** Predictions outside training data range are unreliable
+
+**Alternative Approaches:**
+- **Polynomial Regression:** Capture non-linear relationships 
+
+**Justification for Chosen Approach:**
+
+- Linear regression is interpretable (coefficients show feature importance) and appropriate for the predominantly linear relationships in our data. 
+
+---
+
+### 4. Time Series Analysis
+
+**Techniques Used:**
+- Trend analysis (linear regression with time)
+- Year-over-year growth rates
+
+**Limitations:**
+- **Stationarity Assumption:** Many time series methods assume stationary data (constant mean/variance)
+- **Autocorrelation:** Observations are not independent (violates regression assumptions)
+- **Seasonality:** Annual data may hide seasonal patterns (monthly data would be better)
+
+**Alternative Approaches:**
+- **Exponential Smoothing:** Weight recent observations more heavily
+
+**Justification for Chosen Approach:**
+Simple trend analysis are sufficient for our 40-year annual data. We used linear regression to quantify trends. 
+
+---
+
+### 5. Data Visualisation
+
+**Techniques Used:**
+- Static visualisations (Matplotlib, Seaborn)
+- Interactive visualisations (Plotly)
+- Dashboard development (PowerBI)
+
+**Limitations:**
+- **Overplotting:** Too many data points can obscure patterns
+- **Chart Junk:** Unnecessary decorations distract from data
+- **3D Charts:** Often misleading and hard to interpret
+
+**Alternative Approaches:**
+- **Aggregation:** Group data to reduce overplotting (e.g., show country averages, not individual years)
+- **Minimalist Design:** Remove gridlines, borders, and unnecessary elements
+- **Small Multiples:** Multiple simple charts instead of one complex chart
+
+**Justification for Chosen Approach:**
+ A mix of static (for reports) and interactive (for dashboard) visualisations are used. Static charts are publication-ready, while interactive charts enable exploration. 
+
+---
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
