@@ -515,7 +515,7 @@ This section explains how each business requirement (BR1-BR6) is addressed throu
 
 ---
 
-#### 5.3 Country Comparison (Multi-Line Chart)
+#### 5.2 Country Comparison (Multi-Line Chart)
 
 **Visualisation Type:** Line chart with separate line for each selected country.
 
@@ -553,6 +553,19 @@ This section explains how each business requirement (BR1-BR6) is addressed throu
 **Rationale:**
 - **Reproducibility:** Technical audiences can verify and extend analysis
 - **Transparency:** Shows methodology, not just results
+
+---
+
+### Summary: Business Requirements → Visualisations Mapping
+
+| Business Requirement | Visualization Type | Rationale | Key Insights |
+|----------------------|-------------------|-----------|--------------|
+| BR1: Historical Trends | Line charts | Show temporal patterns | Renewable energy accelerating post-2010 |
+| BR2: Statistical Relationships | Scatter plots, heatmaps | Quantify correlations | GDP and energy: r > 0.8 (strong) |
+| BR3: Predictive Modeling | Actual vs. predicted, feature importance | Validate model performance | R² for predictions |
+| BR4: Interactive Exploration | Dashboard with filters | Enable self-service analysis | Users can focus on relevant data |
+| BR5: Comparative Benchmarking | Bar charts, rankings | Identify top CO2 emitter countries | United States is the top CO2 emitter |
+| BR6: Diverse Audiences | KPIs, narratives, notebooks | Communicate to all stakeholders | Executive summaries + technical details |
 
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
