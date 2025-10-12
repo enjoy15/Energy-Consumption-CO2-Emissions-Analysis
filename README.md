@@ -797,6 +797,46 @@ Dashboard Overview tab provides high-level trends for executives. All users can 
 3. **Practice:** Experimented with different evaluation metrics (R², RMSE, MAE)
 4. **Iteration:** Refined models based on cross-validation results
 
+---
+
+## Development Roadmap
+
+### Challenges Faced and Strategies Used
+
+#### Energy Category Mapping
+
+**Problem:** `all_energy_types` treated as separate category, causing double-counting in statistics and visualisations.
+
+**Root Cause:** Dataset included aggregated rows (sum of all energy types) alongside individual energy types.
+
+**Strategy:**
+1. **Data Cleaning:** Remove aggregated rows during ETL pipeline
+2. **Validation:** Check to ensure no aggregated rows in cleaned data
+3. **Documentation:** Explain rationale in README and code comments
+
+**Result:** Accurate statistics and visualisations without double-counting
+
+---
+
+### New Skills and Tools to Learn Next
+
+#### Advanced Machine Learning
+
+**Current Level:** Basic supervised/unsupervised learning (linear regression, K-means, decision trees)
+
+**Next Steps:**
+- **Ensemble Methods:** Random Forest, Gradient Boosting (XGBoost, LightGBM)
+- **Deep Learning:** Neural networks for time series forecasting (LSTM, GRU)
+- **Feature Engineering:** Automated feature selection and engineering
+- **Hyperparameter Tuning:** Grid search, random search, Bayesian optimisation
+
+**Rationale:** Improve model accuracy and handle more complex relationships
+
+**Resources:**
+- Coursera: Machine Learning Specialisation (Andrew Ng)
+- Fast.ai: Practical Deep Learning for Coders
+- Kaggle: Competitions and tutorials
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
