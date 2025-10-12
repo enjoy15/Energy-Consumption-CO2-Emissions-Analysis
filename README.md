@@ -224,6 +224,82 @@ However, policymakers, energy planners, and climate researchers face significant
 
 **Business Value:** Ensure insights drive action across all stakeholder groups
 
+---
+
+## Hypothesis and How to Validate
+
+### Hypothesis 1: GDP and Energy Consumption Relationship
+
+**Null Hypothesis (H₀):** There is no significant relationship between GDP and energy consumption.
+
+**Alternative Hypothesis (H₁):** There is a significant positive relationship between GDP and energy consumption.
+
+**Rationale:** Economic growth typically requires energy for manufacturing, transportation, and services. Wealthier countries consume more energy.
+
+**Validation Method:**
+1. **Pearson Correlation Analysis**
+   - Calculate correlation coefficient (r)
+   - Test for statistical significance (p-value)
+   - Interpret strength of relationship
+
+2. **Linear Regression**
+   - Model: Energy_consumption = β₀ + β₁(GDP) + ε
+
+**Expected Result:** Strong positive correlation (r > 0.70, p < 0.05)
+
+**Actual Result:** p < 0.001 → **REJECT H₀** - Strong positive relationship confirmed
+
+**Business Implication:** Economic growth and energy consumption are tightly coupled. Decoupling requires deliberate energy efficiency policies.
+
+---
+
+### Hypothesis 2: Renewable Energy and CO2 Emissions
+
+**Null Hypothesis (H₀):** There is no significant difference in CO2 emissions between renewable and fossil fuel energy sources
+
+**Alternative Hypothesis (H₁):** Fossil fuel energy sources produce significantly higher CO2 emissions than renewable sources
+
+**Rationale:** Renewables (solar, wind, hydro) produce minimal direct CO2 emissions compared to coal, oil, and gas.
+
+**Validation Method:**
+1. **Independent T-Test**
+   - Group data into renewable energy and fossil fuel categories
+   - Compare mean CO2 emissions between groups
+   - Test for statistical significance (α = 0.05)
+
+**Expected Result:** Significantly lower emissions for renewables (p < 0.05, large effect size)
+
+**Actual Result:** p < 0.001 → **REJECT H₀** - There is a significant difference in CO2 emissions between energy sources. Fossil fuels produce more CO2 than renewables.
+
+**Business Implication:** Transitioning to renewables is essential for meeting climate targets. 
+
+---
+
+### Hypothesis 3: Energy Consumption Trends Over Time
+
+**Null Hypothesis (H₀):** Energy consumption has not changed significantly over time
+
+**Alternative Hypothesis (H₁):** Energy consumption has increased significantly over time
+
+**Rationale:** Over time, factors such as population growth, urbanisation, and economic development typically lead to higher demand for energy. Additionally, increased use of electrical appliances, digital technologies, and transport activity contributes to rising energy consumption. Therefore, it is reasonable to expect that total energy consumption has increased significantly over the years, reflecting broader trends in industrialisation and lifestyle changes.
+
+**Validation Method:**
+1. **Linear regression analysis**
+   - Model: Energy_Consumption = β₀ + β₁(Year) + ε
+
+2. **Trend Analysis**
+   - Plot energy consumption over time
+
+**Expected Result:** Significant negative trend (β₁ < 0, p < 0.05)
+
+**Actual Result:** p < 0.001 → **REJECT H₀** - Energy consumption has INCREASED significantly over time.
+
+**Business Implication:** Need for sustainable energy solutions is urgent.
+
+---
+
+**Overall Conclusion:** All three hypotheses showed statistically significant results (p < 0.001), providing strong evidence for the relationships between economic factors, energy consumption, and CO2 emissions. These findings support aggressive renewable energy policies and energy efficiency standards.
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
