@@ -8,9 +8,9 @@ A comprehensive data analytics and AI project analysing global energy consumptio
 **PowerBI Dashboard:** [View Dashboard](https://github.com/enjoy15/Energy-Consumption-CO2-Emissions-Analysis/tree/main/dashboard)  
 **Repository:** [GitHub Repository](https://github.com/enjoy15/Energy-Consumption-CO2-Emissions-Analysis)
 
-<p align="center">
+<table><tr><td>
   <img src="images/dashboard.jpg" alt="PowerBI Dashboard" width="1000"/>
-</p>
+</td></tr></table>
 
 ## Table of Contents
 
