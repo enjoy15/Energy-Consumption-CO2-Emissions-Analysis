@@ -97,3 +97,53 @@ The dataset includes five major energy categories:
 5. **Granularity:** Country-level data only, no sub-national or city-level detail
 
 ---
+
+## Business Requirements
+
+### Problem Statement
+
+Climate change represents the defining challenge of our generation, with the energy sector accounting for approximately **73% of global greenhouse gas emissions** (IPCC, 2021) [[1]](#1). Countries worldwide are committed to transitioning from fossil fuels to renewable energy under the Paris Agreement, aiming to limit global warming to 1.5°C above pre-industrial levels.
+
+However, policymakers, energy planners, and climate researchers face significant challenges:
+
+1. **Lack of Accessible Historical Data** - Energy data is scattered across multiple sources and difficult to analyse
+2. **Complex Relationships** - Understanding connections between economic growth, population, and energy consumption requires sophisticated analysis
+3. **Limited Predictive Tools** - Few tools exist to forecast future energy scenarios based on historical trends
+4. **Communication Barriers** - Technical data is difficult to communicate to non-technical stakeholders
+5. **Benchmarking Challenges** - Countries struggle to compare their progress against peers
+
+### Target Audience
+
+#### Primary Stakeholders
+
+1. **Government Policy Makers**
+   - National energy ministers and climate policy officials
+   - Need: Evidence-based insights for setting renewable energy targets
+   - Use Case: Benchmark national progress, set realistic transition timelines
+
+2. **Energy Sector Analysts**
+   - Energy companies, utilities, and grid operators
+   - Need: Market trends and demand forecasting
+   - Use Case: Investment decisions, capacity planning
+
+3. **Climate Researchers**
+   - Academic institutions and research organisations
+   - Need: Historical data for climate models and policy analysis
+   - Use Case: Validate climate models, publish research papers
+
+#### Secondary Stakeholders
+
+4. **International Organisations**
+   - UN, World Bank, IEA
+   - Need: Global progress tracking on climate commitments
+   - Use Case: Monitor Paris Agreement compliance, allocate climate finance
+
+5. **General Public and Students**
+   - Citizens interested in climate action, students learning about energy
+   - Need: Accessible visualisations and educational content
+   - Use Case: Understand energy transition, make informed voting decisions
+
+## <a id="references "></a> 🔗 References 
+<a id="1">[1]</a> 
+*   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
+Retrieved 12 October, 2025, from [https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6/](https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6/)
