@@ -678,6 +678,20 @@ Simple trend analysis are sufficient for our 40-year annual data. We used linear
 
 ---
 
+## Ethical Considerations
+
+### Data Privacy
+
+**Issue:** The dataset contains country-level aggregated data, not individual-level data, so privacy risks are minimal. However, we must consider:
+
+1. **Data Provenance:** Ensure data comes from reputable sources (EIA, World Bank, IEA) with proper data collection protocols
+2. **Anonymisation:** No personally identifiable information (PII) is present in the dataset
+3. **Consent:** Aggregated national statistics are public domain, no individual consent required
+
+**Conclusion:** No privacy concerns. Dataset is public, aggregated, and anonymised.
+
+---
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
