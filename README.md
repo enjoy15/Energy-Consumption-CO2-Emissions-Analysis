@@ -307,7 +307,7 @@ However, policymakers, energy planners, and climate researchers face significant
 **GitHub Project Board** [Countries CO2 Emission](https://github.com/users/enjoy15/projects/6)
 
 <p align="center">
-  <img src="images/ProjectBoard.gif" alt="GitHub Project Board" width="1000"/>
+  <img src="images/ProjectBoard.jpg" alt="GitHub Project Board" width="1000"/>
 </p>
 
 The analysis followed a structured approach, including:
