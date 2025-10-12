@@ -300,6 +300,18 @@ However, policymakers, energy planners, and climate researchers face significant
 
 **Overall Conclusion:** All three hypotheses showed statistically significant results (p < 0.001), providing strong evidence for the relationships between economic factors, energy consumption, and CO2 emissions. These findings support aggressive renewable energy policies and energy efficiency standards.
 
+---
+
+## Project Plan
+
+**GitHub Project Board** [Countries CO2 Emission](https://github.com/users/enjoy15/projects/6)
+
+<p align="center">
+  <img src="images/ProjectBoard.gif" alt="GitHub Project Board" width="1000"/>
+</p>
+
+The analysis followed a structured approach, including:
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
