@@ -837,6 +837,19 @@ Dashboard Overview tab provides high-level trends for executives. All users can 
 - Fast.ai: Practical Deep Learning for Coders
 - Kaggle: Competitions and tutorials
 
+---
+
+## Main Data Analysis Libraries
+
+| Library      | Example Use                                 |
+| ------------ | ------------------------------------------- |
+| pandas       | Data cleaning, merging, feature engineering |
+| numpy        | Numeric computation, anomaly calculations   |
+| matplotlib   | Time Series, bar chart                      |
+| seaborn      | Histogram, Correlation, Box Plot, Violin    |
+| plotly       | Interactive mapping and dashboards          |
+| scikit-learn | Machine Learning in Python                  |
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
