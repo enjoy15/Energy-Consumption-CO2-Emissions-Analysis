@@ -372,6 +372,188 @@ The analysis followed a structured approach, including:
 **Objectives:**
 - Document methodology and findings in README file
 
+---
+
+
+## The Rationale to Map Business Requirements to Data Visualisations
+
+This section explains how each business requirement (BR1-BR6) is addressed through specific data visualisations and analytical techniques.
+
+---
+
+### BR1: Historical Trend Analysis → Temporal Visualisations
+
+**Business Requirement:** Analyse 40 years of energy consumption and CO2 emissions data to identify patterns, trends, and inflection points.
+
+**Mapping to Visualisations:**
+
+#### 1.1 Global Energy Consumption Trends (Line Chart)
+
+**Visualisation Type:** Multi-line chart with time on X-axis, energy consumption on Y-axis, separate lines for each energy type.
+
+**Rationale:**
+- **Temporal Clarity:** Line charts are ideal for showing changes over time
+- **Comparison:** Multiple lines enable comparison between energy types
+- **Trend Identification:** Slopes reveal growth rates and inflection points
+
+**Insights Enabled:**
+- Renewable energy accelerated post-2010 (Paris Agreement effect)
+- Coal consumption peaked in 2013, declining since
+- Natural gas grew steadily as "bridge fuel"
+- Nuclear remained flat (public concerns, high costs)
+
+---
+
+### BR2: Statistical Relationship Validation → Correlation and Regression Visualisations
+
+**Business Requirement:** Establish and quantify relationships between economic factors (GDP) and energy consumption using rigorous statistical methods.
+
+**Mapping to Visualisations:**
+
+#### 2.1 GDP vs. Energy Consumption (Scatter Plot with Regression Line)
+
+**Visualisation Type:** Scatter plot with linear regression line
+
+**Rationale:**
+- **Relationship Clarity:** Scatter plots show correlation visually
+- **Statistical Rigor:** Regression line quantifies relationship
+- **Uncertainty:** Confidence intervals show prediction reliability
+
+**Insights Enabled:**
+- Strong positive relationship confirms economic growth drives energy demand
+
+---
+
+#### 2.2 Correlation Heatmap (Heatmap)
+
+**Visualisation Type:** Heatmap showing pairwise correlations between all numerical variables.
+
+**Rationale:**
+- **Comprehensive:** Shows all relationships at once
+- **Pattern Recognition:** Color coding reveals clusters of related variables
+- **Hypothesis Generation:** Identifies unexpected relationships for further investigation
+
+**Insights Enabled:**
+- GDP and energy consumption: strong relationship
+
+---
+
+### BR3: Predictive Modelling → Model Performance and Feature Importance Visualisations
+
+**Business Requirement:** Build machine learning models to predict future energy consumption and classify energy profiles.
+
+**Mapping to Visualisations:**
+
+#### 3.1 Actual vs. Predicted Energy Consumption (Scatter Plot)
+
+**Visualisation Type:** Scatter plot with actual values on X-axis, predicted values on Y-axis, diagonal reference line.
+
+**Rationale:**
+- **Model Accuracy:** Points near diagonal indicate good predictions
+- **Error Patterns:** Systematic deviations reveal model limitations
+- **Confidence:** Tight clustering around diagonal shows reliability
+
+
+**Insights Enabled:**
+- High R² indicates excellent predictive performance
+- Model slightly underestimates high consumption (outliers)
+- Suitable for forecasting future energy demand scenarios
+
+---
+
+### BR4: Interactive Data Exploration → Dashboard with Filters and Multiple Chart Types
+
+**Business Requirement:** Create an interactive dashboard that allows stakeholders to explore data without technical expertise.
+
+**Mapping to Visualisations:**
+
+#### 4.1 Dashboard Layout (Tab-Based Navigation)
+
+**Visualisation Type:** Multi-tab interface with Overview, Trends, and Comparison tabs.
+
+**Rationale:**
+- **Organisation:** Tabs prevent overwhelming users with too much information
+- **Progressive Disclosure:** Users can drill down from high-level to detailed views
+- **User Experience:** Familiar pattern (similar to Excel, Google Sheets)
+
+**Tabs:**
+1. **Overview:** KPIs, summary statistics, global trends
+2. **Trends:** Temporal analysis, year-over-year changes
+3. **Comparison:** Country and energy type comparisons
+
+---
+
+#### 4.2 Interactive Filters (Sliders and Multi-Select)
+
+**Visualisation Type:** Year range slider, country multi-select dropdown.
+
+**Rationale:**
+- **User Control:** Stakeholders can focus on relevant data
+- **Flexibility:** Same dashboard serves multiple use cases
+- **Engagement:** Interactivity increases user engagement
+
+**Insights Enabled:**
+- Policy makers can focus on their country and peer nations
+- Researchers can isolate specific time periods (e.g., post-Paris Agreement)
+- General public can explore data relevant to their interests
+
+---
+
+### BR5: Comparative Benchmarking → Country Comparison Charts
+
+**Business Requirement:** Enable countries to compare their energy profiles against peers and identify best practices.
+
+**Mapping to Visualisations:**
+
+#### 5.1 Top CO2 Emitters (Bar Chart in PowerBI)
+
+**Visualisation Type:** Horizontal bar chart showing top countries by CO2 emissions.
+
+**Rationale:**
+- **Ranking:** Bar length enables quick comparison
+- **Accountability:** Highlights countries with greatest responsibility
+
+---
+
+#### 5.3 Country Comparison (Multi-Line Chart)
+
+**Visualisation Type:** Line chart with separate line for each selected country.
+
+**Rationale:**
+- **Direct Comparison:** Multiple lines enable side-by-side comparison
+- **Temporal Context:** Shows how countries' trajectories differ
+- **Peer Learning:** Identifies countries with similar starting points but different outcomes
+
+**Insights Enabled:**
+- China's energy consumption grew 400% from 1980 to 2020
+- USA consumption remained flat (efficiency gains offset growth)
+- Germany reduced consumption while growing GDP (decoupling success)
+
+---
+
+### BR6: Communication to Diverse Audiences → Multiple Visualisation Formats and Narratives
+
+**Business Requirement:** Present complex data insights in ways accessible to both technical and non-technical audiences.
+
+**Mapping to Visualisations:**
+
+#### 6.1 Executive Summary (Overview tab in PowerBI)
+
+**Visualisation Type:** Power BI Dashboard
+
+**Rationale:**
+- **Simplicity:** KPI numbers and overview charts
+
+---
+
+#### 6.2 Jupyter Notebooks with Markdown Narratives
+
+**Visualisation Type:** Jupyter notebooks combining code, visualisations, and explanatory text.
+
+**Rationale:**
+- **Reproducibility:** Technical audiences can verify and extend analysis
+- **Transparency:** Shows methodology, not just results
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
