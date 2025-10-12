@@ -314,6 +314,64 @@ However, policymakers, energy planners, and climate researchers face significant
 
 The analysis followed a structured approach, including:
 
+### 1: Business Understanding
+
+**Objectives:**
+- Define business problem and requirements
+- Identify stakeholders and their needs
+- Establish success criteria
+- Formulate research hypotheses
+
+### 2: Data Understanding 
+
+**Objectives:**
+- Acquire dataset from reliable sources
+- Understand data structure and quality
+- Identify data limitations and gaps
+- Assess data suitability for analysis
+
+### 3: Data Preparation
+
+**Objectives:**
+- Clean and transform raw data
+- Handle missing values and outliers
+- Create derived features
+- Prepare data for analysis
+
+### 4: Exploratory Data Analysis 
+
+**Objectives:**
+- Understand data distributions and patterns
+- Identify correlations and relationships
+- Detect outliers and anomalies
+- Generate initial insights
+
+### 5: Statistical Analysis & Hypothesis Testing
+
+**Objectives:**
+- Test research hypotheses with statistical rigor
+- Quantify relationships with confidence intervals
+- Validate assumptions for statistical tests
+- Provide evidence-based conclusions
+
+### 6: Machine Learning Modeling
+
+**Objectives:**
+- Build predictive models for energy consumption
+- Cluster countries by energy profile
+- Classify energy types
+- Evaluate model performance
+
+### 7: Dashboard Development
+
+**Objectives:**
+- Create interactive PowerBI dashboard
+
+### 8: Documentation 
+
+**Objectives:**
+- Document methodology and findings in README file
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
