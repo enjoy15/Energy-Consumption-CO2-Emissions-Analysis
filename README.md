@@ -733,7 +733,7 @@ The interactive dashboard is organised into three main tabs, each serving a spec
 
 #### 3.1 CO2 Emitters (Horizontal Bar Chart)
 
-**Visualization:** Compare countries by CO2 emissions
+**Visualisation:** Compare countries by CO2 emissions
 
 **Interactions:**
 - Hover: Tooltip shows CO2 emissions 
@@ -741,7 +741,7 @@ The interactive dashboard is organised into three main tabs, each serving a spec
 
 #### 3.2 Country Comparison (Multi-Line Chart)
 
-**Visualization:** Line chart comparing selected countries' energy consumption (1980-2019)
+**Visualisation:** Line chart comparing selected countries' energy consumption (1980-2019)
 
 **Interactions:**
 - Select countries from check box
