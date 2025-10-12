@@ -692,6 +692,71 @@ Simple trend analysis are sufficient for our 40-year annual data. We used linear
 
 ---
 
+## Dashboard Design
+
+### Dashboard Pages and Content
+
+The interactive dashboard is organised into three main tabs, each serving a specific analytical purpose:
+
+### Tab 1: Overview
+
+<table><tr><td>
+  <img src="wireframe/overview.jpg" alt="PowerBI Dashboard" width="1000"/>
+</td></tr></table>
+
+**Purpose:** Provide high-level summary of global energy trends and key performance indicators (KPIs).
+
+### Tab 2: Trends
+
+<table><tr><td>
+  <img src="wireframe/Trends.jpg" alt="PowerBI Dashboard" width="1000"/>
+</td></tr></table>
+
+**Purpose:** Analyse temporal patterns and identify inflection points.
+
+**Content:**
+
+#### Filters (Interactive Controls)
+
+* Year Range Slider
+* Country Multi-Select
+
+### Tab 3: Comparison
+
+<table><tr><td>
+  <img src="wireframe/Comparison.jpg" alt="PowerBI Dashboard" width="1000"/>
+</td></tr></table>
+
+**Purpose:** Compare countries and energy types to identify leaders and laggards.
+
+**Content:**
+
+#### 3.1 CO2 Emitters (Horizontal Bar Chart)
+
+**Visualization:** Compare countries by CO2 emissions
+
+**Interactions:**
+- Hover: Tooltip shows CO2 emissions 
+- Click bar: Filter dashboard to selected country
+
+#### 3.2 Country Comparison (Multi-Line Chart)
+
+**Visualization:** Line chart comparing selected countries' energy consumption (1980-2019)
+
+**Interactions:**
+- Select countries from check box
+- Hover: Tooltip shows country, year, value
+- Click legend: Toggle country visibility
+
+**Insights:**
+- China's rapid growth (400% increase)
+- USA's flat consumption (efficiency gains)
+- Germany's decline (renewable transition success)
+
+
+Dashboard Overview tab provides high-level trends for executives. All users can filter by country and year to focus on relevant data.
+
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
