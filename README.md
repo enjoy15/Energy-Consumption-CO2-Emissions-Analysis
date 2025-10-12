@@ -143,6 +143,87 @@ However, policymakers, energy planners, and climate researchers face significant
    - Need: Accessible visualisations and educational content
    - Use Case: Understand energy transition, make informed voting decisions
 
+### Business Requirements
+
+#### BR1: Historical Trend Analysis
+
+**Requirement:** Analyse 40 years of energy consumption and CO2 emissions data to identify patterns, trends, and inflection points.
+
+**Success Criteria:**
+- Visualise temporal trends for all energy types (1980-2019)
+- Calculate growth rates
+- Compare renewable vs. fossil fuel adoption rates
+
+**Business Value:** Understand what has worked historically to inform future strategies
+
+---
+
+#### BR2: Statistical Relationship Validation
+
+**Requirement:** Establish and quantify relationships between economic factors (GDP) and energy consumption using rigorous statistical methods.
+
+**Success Criteria:**
+- Calculate correlation coefficients with statistical significance (p < 0.05)
+- Perform hypothesis testing on key relationships
+- Provide confidence intervals for estimates
+- Validate assumptions
+
+**Business Value:** Provide evidence-based insights for policy decisions, not just intuition
+
+---
+
+#### BR3: Predictive Modeling
+
+**Requirement:** Build machine learning models to predict future energy consumption and classify energy profiles.
+
+**Success Criteria:**
+- Linear regression model for energy consumption prediction
+- Clustering model to group countries by energy profile 
+- Classification model to identify energy types 
+- Cross-validation to ensure model generalisation
+
+**Business Value:** Enable scenario planning and "what-if" analysis for policy makers
+
+---
+
+#### BR4: Interactive Data Exploration
+
+**Requirement:** Create an interactive dashboard that allows stakeholders to explore data without technical expertise.
+
+**Success Criteria:**
+- Interactive filters (year range, countries)
+- Multiple visualisation types (line, bar, scatter, pie, heatmap)
+
+**Business Value:** Democratise access to energy data, enable self-service analysis
+
+---
+
+#### BR5: Comparative Benchmarking
+
+**Requirement:** Enable countries to compare their energy profiles against peers and identify best practices.
+
+**Success Criteria:**
+- Country comparison visualisations
+- Identify outliers and leaders
+- Cluster analysis to find similar countries
+
+**Business Value:** Learn from success stories, identify achievable targets
+
+---
+
+#### BR6: Communication to Diverse Audiences
+
+**Requirement:** Present complex data insights in ways accessible to both technical and non-technical audiences.
+
+**Success Criteria:**
+- Executive summaries with key takeaways
+- Technical documentation with methodology details
+- Visual storytelling with clear narratives
+- Jupyter notebooks for reproducibility
+- README documentation
+
+**Business Value:** Ensure insights drive action across all stakeholder groups
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
