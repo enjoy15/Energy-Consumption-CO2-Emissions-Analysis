@@ -756,6 +756,46 @@ The interactive dashboard is organised into three main tabs, each serving a spec
 
 Dashboard Overview tab provides high-level trends for executives. All users can filter by country and year to focus on relevant data.
 
+---
+## Unfixed Bugs
+
+### Missing Data Handling – Filled with Zero
+
+**Description:** If a country has missing data for a specific year, the system currently fills the gap with a value of zero. As a result, the line chart displays a flat segment at zero for those years.
+
+**Impact:** This approach may be misleading, as it could suggest that a country consumed no energy during those years. However, it avoids fabricating or altering the original dataset.
+
+**Why Not Fixed:**
+- **Data Integrity:** Interpolating missing values could misrepresent data (e.g., linear interpolation assumes constant growth, which may not be true)
+- **Complexity:** Implementing smart interpolation (e.g., forward fill, spline) requires additional logic and testing
+
+**Potential Solutions:**
+- Add toggle to enable/disable interpolation
+- Use forward fill (repeat last known value)
+
+**Future Work:** Add interpolation option with clear warning about assumptions
+
+### Gaps in Knowledge and How They Were Addressed
+
+#### Statistical Hypothesis Testing
+
+**Problem:** Needed to perform rigorous hypothesis testing, but had limited experience with statistical inference.
+
+**How Addressed:**
+1. **Coursework:** Reviewed statistics textbook
+2. **Online Courses:** Completed Khan Academy statistics course
+3. **Practice:** Worked through hypothesis testing examples with sample datasets
+4. **Documentation:** Documented assumptions and limitations in README
+
+#### Machine Learning Model Evaluation
+
+**Problem:** Trained models but didn't know how to properly evaluate them (overfitting risk).
+
+**How Addressed:**
+1. **Documentation:** Read Scikit-learn model evaluation guide
+2. **Best Practices:** Learned about train-test split, cross-validation, and regularisation
+3. **Practice:** Experimented with different evaluation metrics (R², RMSE, MAE)
+4. **Iteration:** Refined models based on cross-validation results
 
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
