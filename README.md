@@ -5,7 +5,7 @@
 A comprehensive data analytics and AI project analysing global energy consumption patterns and CO2 emissions from 1980 to 2020, combining statistical analysis, machine learning, and interactive visualisations to support climate policy and sustainable development.
 
 ## PowerBI Dashboard & Git Hub
-**PowerBI Dashboard:** [View Dashboard](https://github.com/enjoy15/Energy-Consumption-CO2-Emissions-Analysis/blob/main/dashboard/Energy%20Consumption%20%26%20CO2%20Emissions%20Analysis%20Dashboard.pbix)  
+**PowerBI Dashboard:** [View Dashboard](https://github.com/enjoy15/Energy-Consumption-CO2-Emissions-Analysis/tree/main/dashboard)  
 **Repository:** [GitHub Repository](https://github.com/enjoy15/Energy-Consumption-CO2-Emissions-Analysis)
 
 <p align="center">
