@@ -850,6 +850,24 @@ Dashboard Overview tab provides high-level trends for executives. All users can 
 | plotly       | Interactive mapping and dashboards          |
 | scikit-learn | Machine Learning in Python                  |
 
+---
+
+## Credits
+
+**Data Sources:** [Kaggle](https://www.kaggle.com/datasets/lobosi/c02-emission-by-countrys-grouth-and-population)
+
+**AI assistance** for brainstorming, code structuring, and documentation
+
+---
+
+## Acknowledgements
+
+* A big thank you to:
+  - Vasi Pavaloi, a facilitator for this course, for all his support and helpful advice throughout the project.
+  - Niel McEwen, a subject expert at Code Institue
+
+---
+
 ## <a id="references "></a> 🔗 References 
 <a id="1">[1]</a> 
 *   IPCC Sixth Assessment Report. Working Group III: Mitigation of Climate Change. 
